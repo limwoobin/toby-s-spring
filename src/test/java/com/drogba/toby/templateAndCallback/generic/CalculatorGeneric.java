@@ -1,8 +1,11 @@
 package com.drogba.toby.templateAndCallback.generic;
 
+import org.springframework.stereotype.Service;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.sql.Connection;
 
 public class CalculatorGeneric {
     private StringBuilder builder;
