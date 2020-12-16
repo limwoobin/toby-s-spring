@@ -2,12 +2,14 @@ package com.drogba.toby;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.Hashtable;
+
 public class JUnitTest3 {
 
     @Test
     void test() {
-        System.out.println("z");
-        System.out.println("zz");
-        System.out.println("zzz");
+        Hashtable<String , String> hashtable = new Hashtable<>();
+        hashtable.put("a" , "a");
+        hashtable.put("a" , "b");
     }
 }
