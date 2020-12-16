@@ -5,8 +5,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="printer" class="com.drogba.toby.IoCTest.StringPrinter" />
-    <bean id="hello" class="com.drogba.toby.IoCTest.Hello">
+    <bean id="printer" class="com.drogba.toby.IoCTest.ex1.StringPrinter" />
+    <bean id="hello" class="com.drogba.toby.IoCTest.ex1.Hello">
         <property name="name" value="Parent" />
         <property name="printer" value="printer" />
     </bean>

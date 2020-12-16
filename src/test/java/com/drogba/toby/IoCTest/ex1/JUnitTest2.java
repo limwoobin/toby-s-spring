@@ -1,12 +1,10 @@
-package com.drogba.toby.IoCTest;
+package com.drogba.toby.IoCTest.ex1;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.GenericApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;
-import org.springframework.util.ClassUtils;
-import org.springframework.util.StringUtils;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.notNullValue;

@@ -1,4 +1,4 @@
-package com.drogba.toby.IoCTest;
+package com.drogba.toby.IoCTest.ex1;
 
 public class StringPrinter implements Printer {
     private StringBuffer buffer = new StringBuffer();

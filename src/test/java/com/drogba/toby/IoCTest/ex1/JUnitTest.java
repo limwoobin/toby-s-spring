@@ -1,4 +1,4 @@
-package com.drogba.toby.IoCTest;
+package com.drogba.toby.IoCTest.ex1;
 
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.config.RuntimeBeanReference;
