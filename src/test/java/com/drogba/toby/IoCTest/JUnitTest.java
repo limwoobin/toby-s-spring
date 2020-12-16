@@ -45,6 +45,7 @@ public class JUnitTest {
 
         Hello hello = ac.getBean("hello" , Hello.class);
         hello.print();
+
         assertThat(ac.getBean("printer").toString() , is("Hello Spring"));
     }
 }
