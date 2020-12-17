@@ -1,6 +1,5 @@
-package com.drogba.toby.beanTest;
+package com.drogba.toby.beanTest.ex1;
 
-import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.ObjectFactory;
 import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.context.annotation.Configuration;
